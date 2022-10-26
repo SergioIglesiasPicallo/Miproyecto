@@ -1,0 +1,132 @@
+
+body{
+    background-image: url("./imagenesscala/fondoscala.jpg");
+    background-repeat:unset;
+    align-self: center;
+    text-align: center;
+    padding-inline: 150px;
+    
+}
+.cell{
+    cursor:cell;}
+
+
+option{
+    cursor: pointer;
+    width: 10px;
+    display:inline-flex;
+    text-align:end;
+    font-size: 25px;
+    font-weight: 500;
+
+}
+hr{
+    border: 0; height: 0; border-top: 1px double grey; text-align: center;
+}
+h1{
+    text-align: center;
+font-size: 50px;
+font-weight: 800;
+
+}
+div{
+    text-align: center;
+}
+h2{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    color: black;
+}
+h3 {
+    font-size: 30px;
+    text-shadow:  5px black;
+    font-size: 35px;
+ font-style: oblique;
+ font-weight: 1000;
+ font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif ;
+}
+.desayunos{
+    font-weight: 900;
+    
+
+}
+.bocadillos{
+    font-weight: 900;
+
+}
+.sandwiches{
+    font-weight: 900;
+
+}
+.raciones{
+font-weight: 900;
+}
+.postres{
+font-weight: 900;
+}
+.finde{
+font-weight: 900;
+
+}
+li{
+    letter-spacing: 1px;
+    color:burlywood;
+    padding: 4px;
+   text-decoration:underline;
+   text-shadow: 2px 2px black;
+   
+}
+img{
+    max-width: 100%;
+    max-height: 100%;
+    height: auto;
+    width: auto;
+    display:flex;
+    
+}
+footer{
+    margin-top: 50px;
+    text-decoration-color: white;
+    letter-spacing: 1px;
+    padding: 4px;
+    font-weight: 900;
+    font-style: oblique;
+    font-size: 20px;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+
+text-rendering: optimizeLegibility;
+
+}
+legend{
+    font-size: 30px;
+    letter-spacing: 1px;
+    color: blanchedalmond;
+    padding: 4px;
+    text-decoration: underline;
+    text-shadow: 2px 2px black;
+    
+}
+ol{
+    text-shadow: 2px 2px white;
+    text-emphasis-color: white;
+}
+a{
+    text-decoration:wavy;
+    text-shadow: 2px 2px black;
+    text-rendering: optimizeLegibility;
+    color: blanchedalmond;
+}
+label{
+    padding: auto;
+    flex:auto;
+    margin-block: 50px ;
+}
+title{
+    margin-top: 20px;
+}
+@media (max-width: 600px){
+    .img{
+        width: 100px;
+    }
+}
